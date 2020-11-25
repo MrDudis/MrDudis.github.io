@@ -43,7 +43,7 @@ $(document).ready(function () {
             window.location.replace(data.link)
 
         }else {
-            window.location.href = "/404.html";
+            window.location.href = "/404";
         }
     })
 
