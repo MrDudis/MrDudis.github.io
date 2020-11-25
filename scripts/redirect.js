@@ -32,6 +32,8 @@ $(document).ready(function () {
     let id = getUrlParameter("name")
     if(!id) id = "404"
 
+    id = id.toLowerCase()
+
     var ref = database.ref(`website/redirect/${id}`)
 
     ref.once("value", function(snapshot) {
