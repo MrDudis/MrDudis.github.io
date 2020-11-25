@@ -41,7 +41,7 @@ $(document).ready(function () {
             window.location.replace(data.link)
 
         }else {
-            window.location.href = "/404";
+            window.location.href = "/404.html";
         }
     })
 
